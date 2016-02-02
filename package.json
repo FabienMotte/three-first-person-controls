@@ -1,6 +1,6 @@
 {
   "name": "@fabienmotte/three-first-person-controls",
-  "version": "73.0.0",
+  "version": "73.0.1",
   "description": "First person controls for Three.js",
   "author": "Fabien Motte <contact@fabienmotte.com>",
   "license": "MIT",
