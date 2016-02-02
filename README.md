@@ -52,6 +52,12 @@ var render = function() {
 render();
 ```
 
+## Versioning
+
+The major version of this repository follows Three.js major releases (ex. 73.0.0 for r73).
+
+Minor and patch will be reserved for bug fixes and documentation updates.
+
 ## License
 
 MIT © [Mr.doob](http://mrdoob.com/), [AlteredQualia](http://alteredqualia.com/) and [Paul Irish](http://paulirish.com/).
