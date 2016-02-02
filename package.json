@@ -1,0 +1,52 @@
+{
+  "name": "@fabienmotte/three-first-person-controls",
+  "version": "73.0.0",
+  "description": "First person controls for Three.js",
+  "author": "Fabien Motte <contact@fabienmotte.com>",
+  "license": "MIT",
+  "main": "lib/three-first-person-controls.min.js",
+  "keywords": [
+    "library",
+    "fps",
+    "controls",
+    "three",
+    "es6",
+    "umd"
+  ],
+  "scripts": {
+    "start": "npm run dev",
+    "build": "NODE_ENV=production webpack --progress",
+    "dev": "NODE_ENV=development webpack --progress --watch",
+    "lint": "eslint .",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "library": {
+    "name": "three-first-person-controls",
+    "entry": "three-first-person-controls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabienmotte/three-first-person-controls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fabienmotte/three-first-person-controls/issues"
+  },
+  "homepage": "https://github.com/fabienmotte/three-first-person-controls",
+  "peerDependencies": {
+    "three": "^0.73.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "clean-webpack-plugin": "^0.1.7",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.2.1",
+    "imports-loader": "^0.6.5",
+    "webpack": "^1.12.12"
+  }
+}
